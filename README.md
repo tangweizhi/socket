@@ -7,7 +7,7 @@
 2. 代码
 
 ```
-`pomelo.removeAllListeners(); // 移除 pomelo 监听事件
+pomelo.removeAllListeners(); // 移除 pomelo 监听事件
 
 var route = ''; // route 为请求标识
 
@@ -28,5 +28,5 @@ pomelo.disconnect(); // 断开连接
 
 pomelo.on('xxx', function(data){ // 根据 xxx 接收数据
 
-})`
+})
 ```
